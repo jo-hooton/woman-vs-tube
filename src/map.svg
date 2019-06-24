@@ -4155,20 +4155,20 @@
         <tspan x="0" y="0" class="st14 st26 st199 upper-holloway">Upper Holl</tspan><tspan x="21.78" y="0" class="st14 st26 st199 upper-holloway">ow</tspan><tspan x="27.92" y="0" class="st14 st26 st199 upper-holloway">ay</tspan>
       </text>
       <text transform="translate(589.708 219.888)">
-        <tspan x="0" y="0" class="st14 st26 st199">C</tspan><tspan x="2.81" y="0" class="st14 st26 st199">r</tspan><tspan x="4.35" y="0" class="st14 st26 st199">ouch</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 crouch-hill">C</tspan><tspan x="2.81" y="0" class="st14 st26 st199 crouch-hill">r</tspan><tspan x="4.35" y="0" class="st14 st26 st199 crouch-hill">ouch</tspan>
       </text>
       <g class="st0">
-        <text transform="translate(597.994 224.58)" class="st14 st26 st199">
+        <text transform="translate(597.994 224.58)" class="st14 st26 st199 crouch-hill">
           Hill
         </text>
       </g>
       <g class="st0">
-        <text transform="translate(503.997 261.458)" class="st14 st26 st199">
+        <text transform="translate(503.997 261.458)" class="st14 st26 st199 gospel-oak">
           Gospel
         </text>
       </g>
       <g class="st0">
-        <text transform="translate(507.179 266.15)" class="st14 st26 st199">
+        <text transform="translate(507.179 266.15)" class="st14 st26 st199 gospel-oak">
           Oak
         </text>
       </g>
@@ -4182,30 +4182,30 @@
         <path clip-path="url(#SVGID_176_)" fill="#ee3124" d="M912.53 340.47l-1.79-.8h2.53v-.53h-2.6l1.32-.65h1.28v-.51h-1.28l-1.61-.75h-1.23l1.71.75h-2.62v.51h2.62l-1.37.65h-1.25v.53h1.35l1.72.8z"/>
       </g>
       <text transform="translate(774.762 391.113)">
-        <tspan x="0" y="0" class="st14 st26 st199">B</tspan><tspan x="2.62" y="0" class="st14 st26 st199">o</tspan><tspan x="5.24" y="0" class="st14 st26 st199">w</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 bow-church">B</tspan><tspan x="2.62" y="0" class="st14 st26 st199 bow-church">o</tspan><tspan x="5.24" y="0" class="st14 st26 st199 bow-church">w</tspan>
       </text>
       <text transform="translate(774.762 395.805)">
-        <tspan x="0" y="0" class="st14 st26 st199">Chu</tspan><tspan x="8.17" y="0" class="st14 st26 st199">r</tspan><tspan x="9.7" y="0" class="st14 st26 st199">ch</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 bow-church">Chu</tspan><tspan x="8.17" y="0" class="st14 st26 st199 bow-church">r</tspan><tspan x="9.7" y="0" class="st14 st26 st199 bow-church">ch</tspan>
       </text>
       <text transform="translate(835.644 384.13)">
-        <tspan x="0" y="0" class="st14 st26 st199">W</tspan><tspan x="3.88" y="0" class="st14 st26 st199">est</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 west-ham">W</tspan><tspan x="3.88" y="0" class="st14 st26 st199 west-ham">est</tspan>
       </text>
       <g class="st0">
-        <text transform="translate(835.644 388.822)" class="st14 st26 st199">
+        <text transform="translate(835.644 388.822)" class="st14 st26 st199 west-ham">
           Ham
         </text>
       </g>
       <text transform="translate(784.297 367.805)">
-        <tspan x="0" y="0" class="st14 st26 st199">B</tspan><tspan x="2.62" y="0" class="st14 st26 st199">o</tspan><tspan x="5.24" y="0" class="st14 st26 st199">w</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 bow-road">B</tspan><tspan x="2.62" y="0" class="st14 st26 st199 bow-road">o</tspan><tspan x="5.24" y="0" class="st14 st26 st199 bow-road">w</tspan>
       </text>
       <text transform="translate(784.297 372.498)">
-        <tspan x="0" y="0" class="st14 st26 st199">R</tspan><tspan x="2.44" y="0" class="st14 st26 st199">oad</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 bow-road">R</tspan><tspan x="2.44" y="0" class="st14 st26 st199 bow-road">oad</tspan>
       </text>
       <text transform="translate(800.268 383.52)">
-        <tspan x="0" y="0" class="st14 st26 st199">B</tspan><tspan x="2.62" y="0" class="st14 st26 st199">r</tspan><tspan x="4.17" y="0" class="st14 st26 st199">omley-</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 bromley-by-bow">B</tspan><tspan x="2.62" y="0" class="st14 st26 st199 bromley-by-bow">r</tspan><tspan x="4.17" y="0" class="st14 st26 st199 bromley-by-bow">omley-</tspan>
       </text>
       <text transform="translate(801.943 388.212)">
-        <tspan x="0" y="0" class="st14 st26 st199">b</tspan><tspan x="2.7" y="0" class="st14 st26 st199">y-B</tspan><tspan x="9.09" y="0" class="st14 st26 st199">o</tspan><tspan x="11.7" y="0" class="st14 st26 st199">w</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 bromley-by-bow">b</tspan><tspan x="2.7" y="0" class="st14 st26 st199 bromley-by-bow">y-B</tspan><tspan x="9.09" y="0" class="st14 st26 st199 bromley-by-bow">o</tspan><tspan x="11.7" y="0" class="st14 st26 st199 bromley-by-bow">w</tspan>
       </text>
       <g class="st0">
         <defs>
@@ -4217,58 +4217,58 @@
         <path clip-path="url(#SVGID_178_)" fill="#ee3124" d="M850.94 388.8l-1.79-.8h2.53v-.53h-2.6l1.32-.64h1.28v-.52h-1.28l-1.61-.74h-1.23l1.7.74h-2.61v.52h2.61l-1.36.64h-1.25v.53h1.34l1.73.8z"/>
       </g>
       <text transform="translate(733.822 555.27)">
-        <tspan x="0" y="0" class="st14 st26 st199">Island Ga</tspan><tspan x="18.46" y="0" class="st14 st26 st199">r</tspan><tspan x="20" y="0" class="st14 st26 st199">dens</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 island-gardens">Island Ga</tspan><tspan x="18.46" y="0" class="st14 st26 st199 island-gardens">r</tspan><tspan x="20" y="0" class="st14 st26 st199 island-gardens">dens</tspan>
       </text>
       <text transform="translate(775.914 589.91)">
-        <tspan x="0" y="0" class="st14 st26 st199">G</tspan><tspan x="3.13" y="0" class="st14 st26 st199">r</tspan><tspan x="4.67" y="0" class="st14 st26 st199">eenwich</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 greenwich">G</tspan><tspan x="3.13" y="0" class="st14 st26 st199 greenwich">r</tspan><tspan x="4.67" y="0" class="st14 st26 st199 greenwich">eenwich</tspan>
       </text>
       <text transform="translate(775.914 601.78)">
-        <tspan x="0" y="0" class="st14 st26 st199">Deptfo</tspan><tspan x="14.08" y="0" class="st14 st26 st199">r</tspan><tspan x="15.62" y="0" class="st14 st26 st199">d Bridge</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 deptford-bridge">Deptfo</tspan><tspan x="14.08" y="0" class="st14 st26 st199 deptford-bridge">r</tspan><tspan x="15.62" y="0" class="st14 st26 st199 deptford-bridge">d Bridge</tspan>
       </text>
       <g class="st0">
-        <text transform="translate(740.307 518.52)" class="st14 st26 st199">
+        <text transform="translate(740.307 518.52)" class="st14 st26 st199 south-quay">
           South Quay
         </text>
       </g>
       <text transform="translate(736.669 530.771)">
-        <tspan x="0" y="0" class="st14 st26 st199">C</tspan><tspan x="2.81" y="0" class="st14 st26 st199">r</tspan><tspan x="4.35" y="0" class="st14 st26 st199">ossha</tspan><tspan x="15.86" y="0" class="st14 st26 st199">r</tspan><tspan x="17.43" y="0" class="st14 st26 st199">bour</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 crossharbour">C</tspan><tspan x="2.81" y="0" class="st14 st26 st199 crossharbour">r</tspan><tspan x="4.35" y="0" class="st14 st26 st199 crossharbour">ossha</tspan><tspan x="15.86" y="0" class="st14 st26 st199 crossharbour">r</tspan><tspan x="17.43" y="0" class="st14 st26 st199 crossharbour">bour</tspan>
       </text>
       <g class="st0">
-        <text transform="translate(743.798 543.023)" class="st14 st26 st199">
+        <text transform="translate(743.798 543.023)" class="st14 st26 st199 mudchute">
           Mudchute
         </text>
       </g>
       <text transform="translate(737.662 506.267)">
-        <tspan x="0" y="0" class="st14 st26 st199">He</tspan><tspan x="5.58" y="0" class="st14 st26 st199">r</tspan><tspan x="7.12" y="0" class="st14 st26 st199">on Quays</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 herron-quays">He</tspan><tspan x="5.58" y="0" class="st14 st26 st199 herron-quays">r</tspan><tspan x="7.12" y="0" class="st14 st26 st199 herron-quays">on Quays</tspan>
       </text>
       <text transform="translate(743.081 469.976)">
-        <tspan x="0" y="0" class="st14 st26 st199">W</tspan><tspan x="3.88" y="0" class="st14 st26 st199">est India</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 west-india-key">W</tspan><tspan x="3.88" y="0" class="st14 st26 st199 west-india-key">est India</tspan>
       </text>
       <g class="st0">
-        <text transform="translate(754.554 474.669)" class="st14 st26 st199">
+        <text transform="translate(754.554 474.669)" class="st14 st26 st199 west-india-key">
           Quay
         </text>
       </g>
       <text transform="translate(775.924 613.659)">
-        <tspan x="0" y="0" class="st14 st26 st199">El</tspan><tspan x="3.53" y="0" class="st14 st26 st199">v</tspan><tspan x="5.81" y="0" class="st14 st26 st199">erson </tspan><tspan x="18.11" y="0" class="st14 st26 st199">R</tspan><tspan x="20.55" y="0" class="st14 st26 st199">oad</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 elverson-road">El</tspan><tspan x="3.53" y="0" class="st14 st26 st199 elverson-road">v</tspan><tspan x="5.81" y="0" class="st14 st26 st199 elverson-road">erson </tspan><tspan x="18.11" y="0" class="st14 st26 st199 elverson-road">R</tspan><tspan x="20.55" y="0" class="st14 st26 st199 elverson-road">oad</tspan>
       </text>
       <text transform="translate(738.524 407.175)">
-        <tspan x="0" y="0" class="st14 st26 st199">De</tspan><tspan x="5.65" y="0" class="st14 st26 st199">v</tspan><tspan x="7.94" y="0" class="st14 st26 st199">ons </tspan><tspan x="16.23" y="0" class="st14 st26 st199">R</tspan><tspan x="18.66" y="0" class="st14 st26 st199">oad</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 devons-road">De</tspan><tspan x="5.65" y="0" class="st14 st26 st199 devons-road">v</tspan><tspan x="7.94" y="0" class="st14 st26 st199 devons-road">ons </tspan><tspan x="16.23" y="0" class="st14 st26 st199 devons-road">R</tspan><tspan x="18.66" y="0" class="st14 st26 st199 devons-road">oad</tspan>
       </text>
       <text transform="translate(737.813 419.307)">
-        <tspan x="0" y="0" class="st14 st26 st199">Langdon </tspan><tspan x="19.12" y="0" class="st14 st26 st199">P</tspan><tspan x="21.6" y="0" class="st14 st26 st199">a</tspan><tspan x="23.94" y="0" class="st14 st26 st199">r</tspan><tspan x="25.5" y="0" class="st14 st26 st199">k</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 langdon-park">Langdon </tspan><tspan x="19.12" y="0" class="st14 st26 st199 langdon-park">P</tspan><tspan x="21.6" y="0" class="st14 st26 st199 langdon-park">a</tspan><tspan x="23.94" y="0" class="st14 st26 st199 langdon-park">r</tspan><tspan x="25.5" y="0" class="st14 st26 st199 langdon-park">k</tspan>
       </text>
       <text transform="translate(746.433 431.443)">
-        <tspan x="0" y="0" class="st14 st26 st199">A</tspan><tspan x="2.82" y="0" class="st14 st26 st199">ll Saints</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 all-saints">A</tspan><tspan x="2.82" y="0" class="st14 st26 st199 all-saints">ll Saints</tspan>
       </text>
       <text transform="translate(735.42 488.717)">
-        <tspan x="0" y="0" class="st14 st26 st199">Cana</tspan><tspan x="10.17" y="0" class="st14 st26 st199">r</tspan><tspan x="11.82" y="0" class="st14 st26 st199">y Wha</tspan><tspan x="24.25" y="0" class="st14 st26 st199">r</tspan><tspan x="25.87" y="0" class="st14 st26 st199">f</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 canary-wharf">Cana</tspan><tspan x="10.17" y="0" class="st14 st26 st199 canary-wharf">r</tspan><tspan x="11.82" y="0" class="st14 st26 st199 canary-wharf">y Wha</tspan><tspan x="24.25" y="0" class="st14 st26 st199 canary-wharf">r</tspan><tspan x="25.87" y="0" class="st14 st26 st199 canary-wharf">f</tspan>
       </text>
       <text transform="translate(775.9 574.81)">
-        <tspan x="0" y="0" class="st14 st26 st199">Cutty Sa</tspan><tspan x="16.71" y="0" class="st14 st26 st199">r</tspan><tspan x="18.28" y="0" class="st14 st26 st199">k for</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 cutty-sark-for-maritime-greenwich">Cutty Sa</tspan><tspan x="16.71" y="0" class="st14 st26 st199 cutty-sark-for-maritime-greenwich">r</tspan><tspan x="18.28" y="0" class="st14 st26 st199 cutty-sark-for-maritime-greenwich">k for</tspan>
       </text>
       <text transform="translate(775.9 579.504)">
-        <tspan x="0" y="0" class="st14 st26 st199">Maritime G</tspan><tspan x="22.3" y="0" class="st14 st26 st199">r</tspan><tspan x="23.84" y="0" class="st14 st26 st199">eenwich</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 cutty-sark-for-maritime-greenwich">Maritime G</tspan><tspan x="22.3" y="0" class="st14 st26 st199 cutty-sark-for-maritime-greenwich">r</tspan><tspan x="23.84" y="0" class="st14 st26 st199 cutty-sark-for-maritime-greenwich">eenwich</tspan>
       </text>
       <g class="st0">
         <defs>
@@ -4281,7 +4281,7 @@
         <path clip-path="url(#SVGID_180_)" fill="#ee3124" d="M804.34 589.92l-1.8-.8h2.54v-.54h-2.61l1.33-.64h1.28v-.51h-1.28l-1.62-.75h-1.23l1.71.75h-2.61v.51h2.61l-1.37.64h-1.24v.54h1.34l1.73.8z"/>
       </g>
       <text transform="translate(775.916 625.33)">
-        <tspan x="0" y="0" class="st14 st26 st199">L</tspan><tspan x="2.29" y="0" class="st14 st26 st199">e</tspan><tspan x="4.67" y="0" class="st14 st26 st199">wisham</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 lewisham">L</tspan><tspan x="2.29" y="0" class="st14 st26 st199 lewisham">e</tspan><tspan x="4.67" y="0" class="st14 st26 st199 lewisham">wisham</tspan>
       </text>
       <g class="st0">
         <defs>
@@ -4293,81 +4293,81 @@
         <path clip-path="url(#SVGID_182_)" fill="#ee3124" d="M802.65 625.35l-1.79-.8h2.53v-.54h-2.61l1.33-.64h1.28v-.51h-1.28l-1.62-.75h-1.23l1.71.75h-2.61v.51h2.61l-1.37.64h-1.24v.54h1.34l1.73.8z"/>
       </g>
       <text transform="translate(886.904 485.516)">
-        <tspan x="0" y="0" class="st14 st26 st217">W</tspan><tspan x="3.89" y="0" class="st14 st26 st217">est Sil</tspan><tspan x="15.53" y="0" class="st14 st26 st217">v</tspan><tspan x="17.82" y="0" class="st14 st26 st217">ert</tspan><tspan x="23.44" y="0" class="st14 st26 st217">o</tspan><tspan x="26.05" y="0" class="st14 st26 st217">wn</tspan>
+        <tspan x="0" y="0" class="st14 st26 st217 west-silvertown">W</tspan><tspan x="3.89" y="0" class="st14 st26 st217 west-silvertown">est Sil</tspan><tspan x="15.53" y="0" class="st14 st26 st217 west-silvertown">v</tspan><tspan x="17.82" y="0" class="st14 st26 st217 west-silvertown">ert</tspan><tspan x="23.44" y="0" class="st14 st26 st217 west-silvertown">o</tspan><tspan x="26.05" y="0" class="st14 st26 st217 west-silvertown">wn</tspan>
       </text>
       <g class="st0">
-        <text transform="translate(877.08 462.908)" class="st14 st26 st217">
+        <text transform="translate(877.08 462.908)" class="st14 st26 st217 emirates">
           Emirates
         </text>
       </g>
       <text transform="translate(877.08 467.459)">
-        <tspan x="0" y="0" class="st14 st26 st217">R</tspan><tspan x="2.44" y="0" class="st14 st26 st217">o</tspan><tspan x="5.04" y="0" class="st14 st26 st217">y</tspan><tspan x="7.25" y="0" class="st14 st26 st217">al</tspan>
+        <tspan x="0" y="0" class="st14 st26 st217 royal-docks">R</tspan><tspan x="2.44" y="0" class="st14 st26 st217 royal-docks">o</tspan><tspan x="5.04" y="0" class="st14 st26 st217 royal-docks">y</tspan><tspan x="7.25" y="0" class="st14 st26 st217 royal-docks">al</tspan>
       </text>
       <g class="st0">
-        <text transform="translate(877.08 472.01)" class="st14 st26 st217">
+        <text transform="translate(877.08 472.01)" class="st14 st26 st217 royal-docks">
           Docks
         </text>
       </g>
       <g class="st0">
-        <text transform="translate(823.556 498.432)" class="st14 st26 st217">
+        <text transform="translate(823.556 498.432)" class="st14 st26 st217 emirates">
           Emirates
         </text>
       </g>
       <text transform="translate(823.556 502.983)">
-        <tspan x="0" y="0" class="st14 st26 st217">G</tspan><tspan x="3.13" y="0" class="st14 st26 st217">r</tspan><tspan x="4.67" y="0" class="st14 st26 st217">eenwich</tspan>
+        <tspan x="0" y="0" class="st14 st26 st217 greenwich-peninsula">G</tspan><tspan x="3.13" y="0" class="st14 st26 st217 greenwich-peninsula">r</tspan><tspan x="4.67" y="0" class="st14 st26 st217 greenwich-peninsula">eenwich</tspan>
       </text>
       <text transform="translate(823.556 507.534)">
-        <tspan x="0" y="0" class="st14 st26 st217">P</tspan><tspan x="2.54" y="0" class="st14 st26 st217">eninsula</tspan>
+        <tspan x="0" y="0" class="st14 st26 st217 greenwich-peninsula">P</tspan><tspan x="2.54" y="0" class="st14 st26 st217 greenwich-peninsula">eninsula</tspan>
       </text>
       <text transform="translate(865.187 508.605)">
-        <tspan x="0" y="0" class="st14 st26 st217">P</tspan><tspan x="2.54" y="0" class="st14 st26 st217">ontoon Dock</tspan>
+        <tspan x="0" y="0" class="st14 st26 st217 pontoon-dock">P</tspan><tspan x="2.54" y="0" class="st14 st26 st217 pontoon-dock">ontoon Dock</tspan>
       </text>
       <g class="st0">
-        <text transform="translate(892.226 521.06)" class="st14 st26 st217">
+        <text transform="translate(892.226 521.06)" class="st14 st26 st217 london-city-airport">
           London
         </text>
       </g>
       <g class="st0">
-        <text transform="translate(883.06 525.611)" class="st14 st26 st217">
+        <text transform="translate(883.06 525.611)" class="st14 st26 st217 london-city-airport">
           City Airport
         </text>
       </g>
       <text transform="translate(936.663 568.89)">
-        <tspan x="0" y="0" class="st14 st26 st217">W</tspan><tspan x="3.89" y="0" class="st14 st26 st217">oolwich Arsenal</tspan>
+        <tspan x="0" y="0" class="st14 st26 st217 woolwich-arsenal">W</tspan><tspan x="3.89" y="0" class="st14 st26 st217 woolwich-arsenal">oolwich Arsenal</tspan>
       </text>
       <text transform="translate(891.935 536.672)">
-        <tspan x="0" y="0" class="st14 st26 st217">K</tspan><tspan x="2.58" y="0" class="st14 st26 st217">ing Geo</tspan><tspan x="18.36" y="0" class="st14 st26 st217">r</tspan><tspan x="19.9" y="0" class="st14 st26 st217">ge V</tspan>
+        <tspan x="0" y="0" class="st14 st26 st217 king-george-v">K</tspan><tspan x="2.58" y="0" class="st14 st26 st217 king-george-v">ing Geo</tspan><tspan x="18.36" y="0" class="st14 st26 st217 king-george-v">r</tspan><tspan x="19.9" y="0" class="st14 st26 st217 king-george-v">ge V</tspan>
       </text>
       <g class="st0">
-        <text transform="translate(911.541 454.688)" class="st14 st26 st199">
+        <text transform="translate(911.541 454.688)" class="st14 st26 st199 custom-house-for-excel">
           Custom House for ExCeL
         </text>
       </g>
       <text transform="translate(924.258 467.73)">
-        <tspan x="0" y="0" class="st14 st26 st199">Prince </tspan><tspan x="13.6" y="0" class="st14 st26 st199">R</tspan><tspan x="16.04" y="0" class="st14 st26 st199">egent</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 prince-regent">Prince </tspan><tspan x="13.6" y="0" class="st14 st26 st199 prince-regent">R</tspan><tspan x="16.04" y="0" class="st14 st26 st199 prince-regent">egent</tspan>
       </text>
       <text transform="translate(937.328 480.776)">
-        <tspan x="0" y="0" class="st14 st26 st199">R</tspan><tspan x="2.44" y="0" class="st14 st26 st199">o</tspan><tspan x="5.04" y="0" class="st14 st26 st199">y</tspan><tspan x="7.24" y="0" class="st14 st26 st199">al </tspan><tspan x="11.75" y="0" class="st14 st26 st199">A</tspan><tspan x="14.57" y="0" class="st14 st26 st199">lbert</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 royal-albert">R</tspan><tspan x="2.44" y="0" class="st14 st26 st199 royal-albert">o</tspan><tspan x="5.04" y="0" class="st14 st26 st199 royal-albert">y</tspan><tspan x="7.24" y="0" class="st14 st26 st199 royal-albert">al </tspan><tspan x="11.75" y="0" class="st14 st26 st199 royal-albert">A</tspan><tspan x="14.57" y="0" class="st14 st26 st199 royal-albert">lbert</tspan>
       </text>
       <text transform="translate(950.428 493.817)">
-        <tspan x="0" y="0" class="st14 st26 st199">Bec</tspan><tspan x="7.22" y="0" class="st14 st26 st199">k</tspan><tspan x="9.42" y="0" class="st14 st26 st199">ton </tspan><tspan x="17.39" y="0" class="st14 st26 st199">P</tspan><tspan x="19.88" y="0" class="st14 st26 st199">a</tspan><tspan x="22.22" y="0" class="st14 st26 st199">r</tspan><tspan x="23.79" y="0" class="st14 st26 st199">k</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 beckton-park">Bec</tspan><tspan x="7.22" y="0" class="st14 st26 st199 beckton-park">k</tspan><tspan x="9.42" y="0" class="st14 st26 st199 beckton-park">ton </tspan><tspan x="17.39" y="0" class="st14 st26 st199 beckton-park">P</tspan><tspan x="19.88" y="0" class="st14 st26 st199 beckton-park">a</tspan><tspan x="22.22" y="0" class="st14 st26 st199 beckton-park">r</tspan><tspan x="23.79" y="0" class="st14 st26 st199 beckton-park">k</tspan>
       </text>
       <g class="st0">
-        <text transform="translate(962.96 506.858)" class="st14 st26 st199">
+        <text transform="translate(962.96 506.858)" class="st14 st26 st199 cyprus">
           Cyprus
         </text>
       </g>
       <text transform="translate(990.18 532.941)">
-        <tspan x="0" y="0" class="st14 st26 st199">Bec</tspan><tspan x="7.22" y="0" class="st14 st26 st199">k</tspan><tspan x="9.42" y="0" class="st14 st26 st199">ton</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 beckton">Bec</tspan><tspan x="7.22" y="0" class="st14 st26 st199 beckton">k</tspan><tspan x="9.42" y="0" class="st14 st26 st199 beckton">ton</tspan>
       </text>
       <text transform="translate(977.144 519.9)">
-        <tspan x="0" y="0" class="st14 st26 st199">Gallions </tspan><tspan x="17.17" y="0" class="st14 st26 st199">R</tspan><tspan x="19.61" y="0" class="st14 st26 st199">each</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 gallions-reach">Gallions </tspan><tspan x="17.17" y="0" class="st14 st26 st199 gallions-reach">R</tspan><tspan x="19.61" y="0" class="st14 st26 st199 gallions-reach">each</tspan>
       </text>
       <text transform="translate(736.617 455.467)">
-        <tspan x="0" y="0" class="st14 st26 st199">W</tspan><tspan x="3.88" y="0" class="st14 st26 st199">estfer</tspan><tspan x="15.25" y="0" class="st14 st26 st199">r</tspan><tspan x="16.91" y="0" class="st14 st26 st199">y</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 westferry">W</tspan><tspan x="3.88" y="0" class="st14 st26 st199 westferry">estfer</tspan><tspan x="15.25" y="0" class="st14 st26 st199 westferry">r</tspan><tspan x="16.91" y="0" class="st14 st26 st199 westferry">y</tspan>
       </text>
       <text transform="translate(776.178 455.546)">
-        <tspan x="0" y="0" class="st14 st26 st199">Black</tspan><tspan x="10.54" y="0" class="st14 st26 st199">w</tspan><tspan x="14.06" y="0" class="st14 st26 st199">all</tspan>
+        <tspan x="0" y="0" class="st14 st26 st199 blackwall">Black</tspan><tspan x="10.54" y="0" class="st14 st26 st199 blackwall">w</tspan><tspan x="14.06" y="0" class="st14 st26 st199 blackwall">all</tspan>
       </text>
       <text transform="translate(866.707 437.584)">
         <tspan x="0" y="0" class="st14 st26 st199">R</tspan><tspan x="2.44" y="0" class="st14 st26 st199">o</tspan><tspan x="5.04" y="0" class="st14 st26 st199">y</tspan><tspan x="7.24" y="0" class="st14 st26 st199">al</tspan>
