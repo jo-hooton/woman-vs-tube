@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Tube from './tube2.svg'
-import { ReactComponent as Logo } from './tube2.svg';
+import { ReactComponent as Logo } from './map.svg';
 
 function App() {
   return (
