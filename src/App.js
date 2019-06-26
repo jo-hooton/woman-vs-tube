@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Tube from './tube2.svg'
-import { ReactComponent as Logo } from './map.svg';
+import { ReactComponent as Map } from './latomap2.svg';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           rel="noopener noreferrer"
         >
         </a> */}
-        <Logo />
+        <Map />
       </header>
     </div>
   );
