@@ -1,25 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import Game from './Game.js'
 import './App.css';
-import Tube from './tube2.svg'
-import { ReactComponent as Map } from './latomap2.svg';
+
+
+import Zoomable from './Zoomable.js'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a> */}
-        <Map />
+        <Zoomable>
+        <Game />
+        </Zoomable>
       </header>
     </div>
   );

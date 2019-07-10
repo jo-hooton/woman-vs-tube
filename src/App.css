@@ -33,3 +33,7 @@
     transform: rotate(360deg);
   }
 }
+
+.zoomable {
+  transition: transform 1s, transform-origin 1s;
+}
