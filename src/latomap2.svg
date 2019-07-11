@@ -68,7 +68,7 @@
           <tspan x="0" y="0" class="st12 st3 st13">Z</tspan><tspan x="5.78" y="0" class="st12 st3 st13">one numbers 10%</tspan>
         </text>
       </g>
-      <path class="st15" d="M1160.12 783.41h-129.03M1160.12 517.04h-129.03"/>
+      <!-- <path class="st15" d="M1160.12 783.41h-129.03M1160.12 517.04h-129.03"/>
       <path clip-path="url(#SVGID_2_)" fill="none" stroke="#97005e" stroke-width="3.209" stroke-linejoin="round" d="M1031.09 620.93h45.97"/>
       <path clip-path="url(#SVGID_2_)" fill="none" stroke="#009ddc" stroke-width="3.209" stroke-miterlimit="3.864" d="M1031.09 661.05h45.97"/>
       <path clip-path="url(#SVGID_2_)" fill="none" stroke="#ffd200" stroke-width="3.209" stroke-linejoin="round" stroke-miterlimit="3.864" d="M1031.06 567.44h46.05"/>
@@ -171,16 +171,16 @@
         <text transform="translate(1085.88 770.414)" class="st34 st3 st37">
           District
         </text>
-      </g>
-      <text transform="translate(1109.512 770.419)">
+      </g> -->
+      <!-- <text transform="translate(1109.512 770.419)">
         <tspan x="0" y="0" class="st34 st3 st39">open </tspan><tspan x="10.76" y="0" class="st34 st3 st39">w</tspan><tspan x="14.22" y="0" class="st34 st3 st39">ee</tspan><tspan x="18.95" y="0" class="st34 st3 st39">k</tspan><tspan x="21.33" y="0" class="st34 st3 st39">ends and on</tspan>
       </text>
       <g class="st1">
         <text transform="translate(1085.877 775.771)" class="st34 st3 st39">
           some public holidays
         </text>
-      </g>
-      <text transform="translate(1086.027 703.372)">
+      </g> -->
+      <!-- <text transform="translate(1086.027 703.372)">
         <tspan x="0" y="0" class="st34 st3 st37">Emira</tspan><tspan x="17.5" y="0" class="st34 st3 st37">t</tspan><tspan x="20.11" y="0" class="st34 st3 st37">es Ai</tspan>
       </text>
       <g class="st1">
@@ -197,13 +197,13 @@
         <text transform="translate(1086.027 710)" class="st34 st3 st37">
           cable car
         </text>
-      </g>
-      <text transform="translate(1086.027 716.627)">
+      </g> -->
+      <!-- <text transform="translate(1086.027 716.627)">
         <tspan x="0" y="0" class="st34 st3 st37">(special fa</tspan><tspan x="29.74" y="0" class="st34 st3 st37">r</tspan><tspan x="32.41" y="0" class="st34 st3 st37">es apply)</tspan>
-      </text>
-      <path clip-path="url(#SVGID_2_)" fill="none" stroke="#00853f" stroke-width="3.209" stroke-linejoin="round" stroke-miterlimit="3.994" d="M1030.77 768.09h46.58"/>
+      </text> -->
+      <!-- <path clip-path="url(#SVGID_2_)" fill="none" stroke="#00853f" stroke-width="3.209" stroke-linejoin="round" stroke-miterlimit="3.994" d="M1030.77 768.09h46.58"/>
       <path clip-path="url(#SVGID_2_)" fill="none" stroke="#fff" stroke-width="2.119" stroke-linejoin="round" stroke-miterlimit="3.994" d="M1030.44 768.09h47.18"/>
-      <path clip-path="url(#SVGID_2_)" fill="none" stroke="#00853f" stroke-width="3.067" stroke-linejoin="round" stroke-miterlimit="3.994" stroke-dasharray="2.14,2.14" d="M1032.36 768.09h44.99"/>
+      <path clip-path="url(#SVGID_2_)" fill="none" stroke="#00853f" stroke-width="3.067" stroke-linejoin="round" stroke-miterlimit="3.994" stroke-dasharray="2.14,2.14" d="M1032.36 768.09h44.99"/> -->
       <g class="st1">
         <defs>
           <path id="SVGID_9_" d="M0 0h1190.55v878.74H0z"/>
@@ -4675,7 +4675,7 @@
         </text>
       </g>
       <g class="st1">
-        <text transform="translate(521.194 597.04)" class="st34 st3 st170 elephant-castle">
+        <text transform="translate(521.194 597.04)" class="st34 st3 st170 elephant-and-castle">
           Elephant &amp; Castle
         </text>
       </g>

@@ -2,6 +2,7 @@ import React from 'react';
 
 import Game from './Game.js'
 import './App.css';
+import './Animate.css'
 
 
 import Zoomable from './Zoomable.js'
@@ -9,11 +10,7 @@ import Zoomable from './Zoomable.js'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Zoomable>
         <Game />
-        </Zoomable>
-      </header>
     </div>
   );
 }

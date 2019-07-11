@@ -1,4 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
+* {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  color: #1c3f94;
+  font-size: 3em;
+  padding-right: 100px;
+}
+
+h2 {
+  color: #1c3f94;
+}
 
 .App {
   text-align: center;
@@ -36,4 +51,30 @@
 
 .zoomable {
   transition: transform 1s, transform-origin 1s;
+}
+
+.answer {
+  position: 'fixed';
+  left: center;
+  top: center;
+  overflow: hidden;
+}
+
+.answer-input {
+  width: 15rem;
+  height: 2.5rem;
+  font-size: 1.5em;
+}
+
+nav {
+  z-index: 10;
+  position: absolute;
+  background: white;
+  width: 100vw;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-evenly;
+  top: 0;
+  width: 100%;
 }

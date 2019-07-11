@@ -3,12 +3,13 @@ import { ReactComponent as Map } from './latomap2.svg';
 import Form from 'react-bootstrap/Form';
 import Timer from 'react-compound-timer'
 import Score from './Score.js'
+import Zoomable from './Zoomable';
 
 class Game extends React.Component {
 
 
     state = {
-        stationClasses: ["aldgate", "aldgate-east", "angel", "baker-street", "bank", "barbican", "bayswater", "blackfriars", "bond-street", "borough", "cannon-street", "chancery-lane", "charing-cross", "covent-garden", "earls-court", "edgware-road", "elephant-castle", "embankment", "euston", "euston-square", "farringdon", "gloucester-road", "goodge-street", "great-portland-street", "green-park", "high-street-kensington", "holborn", "hoxton", "hyde-park-corner", "kings-cross-st-pancras", "knightsbridge", "lambeth-north", "lancaster-gate", "leicester-square", "liverpool-street", "london-bridge", "mansion-house", "marble-arch", "marylebone", "monument", "moorgate", "notting-hill-gate", "old-street", "oxford-circus", "paddington", "piccadilly-circus", "pimlico", "queensway", "regents-park", "russell-square", "shoreditch-high-street", "sloane-square", "south-kensington", "southwark", "st-jamess-park", "st-pancras-international", "st-pauls", "temple", "tottenham-court-road", "tower-gateway", "tower-hill", "vauxhall", "victoria", "warren-street", "waterloo-east", "waterloo", "westminster"],
+        stationClasses: ["aldgate", "aldgate-east", "angel", "baker-street", "bank", "barbican", "bayswater", "blackfriars", "bond-street", "borough", "cannon-street", "chancery-lane", "charing-cross", "covent-garden", "earls-court", "edgware-road", "elephant-and-castle", "embankment", "euston", "euston-square", "farringdon", "gloucester-road", "goodge-street", "great-portland-street", "green-park", "high-street-kensington", "holborn", "hoxton", "hyde-park-corner", "kings-cross-st-pancras", "knightsbridge", "lambeth-north", "lancaster-gate", "leicester-square", "liverpool-street", "london-bridge", "mansion-house", "marble-arch", "marylebone", "monument", "moorgate", "notting-hill-gate", "old-street", "oxford-circus", "paddington", "piccadilly-circus", "pimlico", "queensway", "regents-park", "russell-square", "shoreditch-high-street", "sloane-square", "south-kensington", "southwark", "st-jamess-park", "st-pancras-international", "st-pauls", "temple", "tottenham-court-road", "tower-gateway", "tower-hill", "vauxhall", "victoria", "warren-street", "waterloo-east", "waterloo", "westminster"],
         correctAnswers: [],
         formText: "",
         score: 0
@@ -26,7 +27,11 @@ class Game extends React.Component {
 
     showStation = stationClass => {
         const targetStationSpans = document.querySelectorAll(`.${stationClass}`)
-        targetStationSpans.forEach(span => span.style.display = 'block')
+        targetStationSpans.forEach(span => {
+            span.style.display = 'block'
+            const currentClasses = span.classList.value
+            span.class = `${currentClasses} bounceIn`
+        })
         const newCorrectAnswers = this.state.correctAnswers
         newCorrectAnswers.push(stationClass)
         this.setState({
@@ -34,6 +39,20 @@ class Game extends React.Component {
             correctAnswers: newCorrectAnswers,
             score: this.state.score += 1
         })
+    }
+
+    showMissingStation = stationClass => {
+        const targetStationSpans = document.querySelectorAll(`.${stationClass}`)
+        targetStationSpans.forEach(span => span.style.display = 'block')
+        targetStationSpans.forEach(span => span.style.fill = 'red')
+    }
+
+    showMissingStations = missingStations => {
+        missingStations.forEach(station => this.showMissingStation(station))
+    }
+
+    gameOver = () => {
+        this.showMissingStations(this.state.stationClasses)
     }
 
     checkStation = input => {
@@ -57,24 +76,42 @@ class Game extends React.Component {
         // const {  } = this.props
         return (
            <>
-           <Map />
-           
-           <Form>
-               <Form.Control size="lg" value={this.state.formText} type="text" placeholder="Enter Station Name" onChange={this.handleChange}/>
+           <nav>
+           <h1>Tubey McTubeFace</h1>
+           <Form className="answer">
+               <Form.Control size="lg" className="answer-input" value={this.state.formText} type="text" placeholder="Enter Station Name" onChange={this.handleChange}/>
            </Form>
-
            <Timer
                 initialTime={300000}
                 direction="backward"
+                checkpoints={[
+                    {
+                        time: 0,
+                        callback: () => this.gameOver(),
+                    }
+                ]}
+                
             >
                 {() => (
                     <>
-                        <Timer.Minutes /> minutes
+                        
+                        <h2>
+                        <Timer.Minutes /> minutes <br />
                         <Timer.Seconds /> seconds 
+                        </h2>
+                    
                     </>
                 )}
             </Timer>
+            <h2>
             <Score score={this.state.score} ></Score>
+            </h2>
+           </nav>
+
+                    <Zoomable initialZoom={2.2}>
+                         <Map />
+                    </Zoomable>
+           
 
            </>
 
