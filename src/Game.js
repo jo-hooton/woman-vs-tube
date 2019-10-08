@@ -1,9 +1,10 @@
 import React from 'react'
-import { ReactComponent as Map } from './latomap2.svg';
-import Form from 'react-bootstrap/Form';
+import { ReactComponent as Map } from './latomap2.svg'
+import Form from 'react-bootstrap/Form'
+import Zoomable from './Zoomable'
+import Message from './Message'
+import Score from './Score'
 import Timer from 'react-compound-timer'
-import Score from './Score.js'
-import Zoomable from './Zoomable';
 
 class Game extends React.Component {
 
@@ -12,7 +13,8 @@ class Game extends React.Component {
         stationClasses: ["aldgate", "aldgate-east", "angel", "baker-street", "bank", "barbican", "bayswater", "blackfriars", "bond-street", "borough", "cannon-street", "chancery-lane", "charing-cross", "covent-garden", "earls-court", "edgware-road", "elephant-and-castle", "embankment", "euston", "euston-square", "farringdon", "gloucester-road", "goodge-street", "great-portland-street", "green-park", "high-street-kensington", "holborn", "hoxton", "hyde-park-corner", "kings-cross-st-pancras", "knightsbridge", "lambeth-north", "lancaster-gate", "leicester-square", "liverpool-street", "london-bridge", "mansion-house", "marble-arch", "marylebone", "monument", "moorgate", "notting-hill-gate", "old-street", "oxford-circus", "paddington", "piccadilly-circus", "pimlico", "queensway", "regents-park", "russell-square", "shoreditch-high-street", "sloane-square", "south-kensington", "southwark", "st-jamess-park", "st-pancras-international", "st-pauls", "temple", "tottenham-court-road", "tower-gateway", "tower-hill", "vauxhall", "victoria", "warren-street", "waterloo-east", "waterloo", "westminster"],
         correctAnswers: [],
         formText: "",
-        score: 0
+        score: 0,
+        gameOver: false
     }
 
     hideStation = stationClass => {
@@ -53,6 +55,7 @@ class Game extends React.Component {
 
     gameOver = () => {
         this.showMissingStations(this.state.stationClasses)
+
     }
 
     checkStation = input => {
@@ -81,8 +84,9 @@ class Game extends React.Component {
            <Form className="answer">
                <Form.Control size="lg" className="answer-input" value={this.state.formText} type="text" placeholder="Enter Station Name" onChange={this.handleChange}/>
            </Form>
+           
            <Timer
-                initialTime={300000}
+                initialTime={3000}
                 direction="backward"
                 checkpoints={[
                     {
@@ -90,7 +94,7 @@ class Game extends React.Component {
                         callback: () => this.gameOver(),
                     }
                 ]}
-                
+                onChange={() => this.state.gameOver && <h2>Game Over</h2>}
             >
                 {() => (
                     <>
