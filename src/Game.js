@@ -86,7 +86,7 @@ class Game extends React.Component {
            </Form>
            
            <Timer
-                initialTime={3000}
+                initialTime={300000}
                 direction="backward"
                 checkpoints={[
                     {
