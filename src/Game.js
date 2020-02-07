@@ -1,4 +1,34 @@
-import React from "react";
+ySelectorAll(`.${stationClass}`);
+    targetStationSpans.forEach(span => (span.style.display = "none"));
+  };
+
+  hideAllStations = stationClassArray => {
+    stationClassArray.forEach(station => this.hideStation(station));
+  };
+
+  showStation = stationClass => {
+    const targetStationSpans = document.querySelectorAll(`.${stationClass}`);
+    targetStationSpans.forEach(span => {
+      span.style.display = "block";
+      const currentClasses = span.classList.value;
+      span.class = `${currentClasses} bounceIn`;
+    });
+    const newCorrectAnswers = this.state.correctAnswers;
+    newCorrectAnswers.push(stationClass);
+    this.setState({
+      stationClasses: [...this.state.stationClasses].filter(
+        el => el !== stationClass
+      ),
+      correctAnswers: newCorrectAnswers,
+      score: (this.state.score += 1)
+    });
+  };
+
+  showMissingStation = stationClass => {
+    const targetStationSpans = document.querySelectorAll(`.${stationClass}`);
+    targetStationSpans.forEach(span => (span.style.display = "block"));
+    targetStationSpans.forEach(span => (span.style.fill = "red"));
+  };import React from "react";
 import { ReactComponent as Map } from "./latomap2.svg";
 import Form from "react-bootstrap/Form";
 import Zoomable from "./Zoomable";
@@ -84,37 +114,7 @@ class Game extends React.Component {
   };
 
   hideStation = stationClass => {
-    const targetStationSpans = document.querySelectorAll(`.${stationClass}`);
-    targetStationSpans.forEach(span => (span.style.display = "none"));
-  };
-
-  hideAllStations = stationClassArray => {
-    stationClassArray.forEach(station => this.hideStation(station));
-  };
-
-  showStation = stationClass => {
-    const targetStationSpans = document.querySelectorAll(`.${stationClass}`);
-    targetStationSpans.forEach(span => {
-      span.style.display = "block";
-      const currentClasses = span.classList.value;
-      span.class = `${currentClasses} bounceIn`;
-    });
-    const newCorrectAnswers = this.state.correctAnswers;
-    newCorrectAnswers.push(stationClass);
-    this.setState({
-      stationClasses: [...this.state.stationClasses].filter(
-        el => el !== stationClass
-      ),
-      correctAnswers: newCorrectAnswers,
-      score: (this.state.score += 1)
-    });
-  };
-
-  showMissingStation = stationClass => {
-    const targetStationSpans = document.querySelectorAll(`.${stationClass}`);
-    targetStationSpans.forEach(span => (span.style.display = "block"));
-    targetStationSpans.forEach(span => (span.style.fill = "red"));
-  };
+    const targetStationSpans = document.quer
 
   showMissingStations = missingStations => {
     missingStations.forEach(station => this.showMissingStation(station));
