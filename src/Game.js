@@ -2,7 +2,6 @@ import React from "react";
 import { ReactComponent as Map } from "./latomap2.svg";
 import Form from "react-bootstrap/Form";
 import Zoomable from "./Zoomable";
-import Message from "./Message";
 import Score from "./Score";
 import Timer from "react-compound-timer";
 
