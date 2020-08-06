@@ -1,16 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import Game from './Game.js'
-import './App.css';
-import './Animate.css'
-
-
-import Zoomable from './Zoomable.js'
+import Game from "./Game.js";
+import "./App.css";
+import "./Animate.css";
 
 function App() {
   return (
     <div className="App">
-        <Game />
+      <Game />
     </div>
   );
 }

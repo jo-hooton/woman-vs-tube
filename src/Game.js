@@ -1,34 +1,4 @@
-ySelectorAll(`.${stationClass}`);
-    targetStationSpans.forEach(span => (span.style.display = "none"));
-  };
-
-  hideAllStations = stationClassArray => {
-    stationClassArray.forEach(station => this.hideStation(station));
-  };
-
-  showStation = stationClass => {
-    const targetStationSpans = document.querySelectorAll(`.${stationClass}`);
-    targetStationSpans.forEach(span => {
-      span.style.display = "block";
-      const currentClasses = span.classList.value;
-      span.class = `${currentClasses} bounceIn`;
-    });
-    const newCorrectAnswers = this.state.correctAnswers;
-    newCorrectAnswers.push(stationClass);
-    this.setState({
-      stationClasses: [...this.state.stationClasses].filter(
-        el => el !== stationClass
-      ),
-      correctAnswers: newCorrectAnswers,
-      score: (this.state.score += 1)
-    });
-  };
-
-  showMissingStation = stationClass => {
-    const targetStationSpans = document.querySelectorAll(`.${stationClass}`);
-    targetStationSpans.forEach(span => (span.style.display = "block"));
-    targetStationSpans.forEach(span => (span.style.fill = "red"));
-  };import React from "react";
+import React from "react";
 import { ReactComponent as Map } from "./latomap2.svg";
 import Form from "react-bootstrap/Form";
 import Zoomable from "./Zoomable";
@@ -105,40 +75,71 @@ class Game extends React.Component {
       "warren-street",
       "waterloo-east",
       "waterloo",
-      "westminster"
+      "westminster",
     ],
     correctAnswers: [],
     formText: "",
     score: 0,
-    gameOver: false
+    gameOver: false,
   };
 
-  hideStation = stationClass => {
-    const targetStationSpans = document.quer
+  hideStation = (stationClass) => {
+    const targetStationSpans = document.querySelectorAll(`.${stationClass}`);
+    targetStationSpans.forEach((span) => (span.style.display = "none"));
+  };
 
-  showMissingStations = missingStations => {
-    missingStations.forEach(station => this.showMissingStation(station));
+  hideAllStations = (stationClassArray) => {
+    stationClassArray.forEach((station) => this.hideStation(station));
+  };
+
+  showStation = (stationClass) => {
+    const targetStationSpans = document.querySelectorAll(`.${stationClass}`);
+    targetStationSpans.forEach((span) => {
+      span.style.display = "block";
+      const currentClasses = span.classList.value;
+      span.class = `${currentClasses} bounceIn`;
+    });
+    const newCorrectAnswers = this.state.correctAnswers;
+    newCorrectAnswers.push(stationClass);
+    this.setState({
+      stationClasses: [...this.state.stationClasses].filter(
+        (el) => el !== stationClass
+      ),
+      correctAnswers: newCorrectAnswers,
+      score: this.setState({ score: this.state.score + 1 }),
+    });
+  };
+
+  showMissingStation = (stationClass) => {
+    const targetStationSpans = document.querySelectorAll(`.${stationClass}`);
+    targetStationSpans.forEach((span) => (span.style.display = "block"));
+    targetStationSpans.forEach((span) => (span.style.fill = "red"));
+  };
+
+  showMissingStations = (missingStations) => {
+    missingStations.forEach((station) => this.showMissingStation(station));
   };
 
   gameOver = () => {
     this.showMissingStations(this.state.stationClasses);
   };
 
-  checkStation = input => {
-    const classInput = input
-      .toLowerCase()
-      .split(" ")
-      .join("-");
+  checkStation = (input) => {
+    const classInput = input.toLowerCase().split(" ").join("-");
     if (this.state.stationClasses.includes(classInput)) {
       this.showStation(classInput);
       this.setState({ formText: "" });
     }
   };
 
-  handleChange = event => {
+  handleChange = (event) => {
     this.setState({ formText: event.target.value }, () =>
       this.checkStation(this.state.formText)
     );
+  };
+
+  stopSubmit = (event) => {
+    event.preventDefault();
   };
 
   componentDidMount = () => {
@@ -146,12 +147,11 @@ class Game extends React.Component {
   };
 
   render() {
-    // const {  } = this.props
     return (
       <>
         <nav>
-          <h1>Tubey McTubeFace</h1>
-          <Form className="answer">
+          <h1>London Funderground</h1>
+          <Form className="answer" onSubmit={this.stopSubmit}>
             <Form.Control
               size="lg"
               className="answer-input"
@@ -168,8 +168,8 @@ class Game extends React.Component {
             checkpoints={[
               {
                 time: 0,
-                callback: () => this.gameOver()
-              }
+                callback: () => this.gameOver(),
+              },
             ]}
             onChange={() => this.state.gameOver && <h2>Game Over</h2>}
           >
